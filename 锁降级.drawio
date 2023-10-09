@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T04:15:49.846Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="jLlGvR6a0O48xqmrFGg7" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T04:26:15.007Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="f_HBD6Qczaeebebj4dZW" version="22.0.4" type="github">
   <diagram name="第 1 页" id="tPJ_YQ1r7z-Xj5ypfqRO">
     <mxGraphModel dx="2261" dy="822" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,7 +92,7 @@
         <mxCell id="Ezz6B4Ye8779zwS5emGY-27" value="小于等于" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="420" y="322" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ezz6B4Ye8779zwS5emGY-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ezz6B4Ye8779zwS5emGY-29" target="Ezz6B4Ye8779zwS5emGY-32">
+        <mxCell id="Ezz6B4Ye8779zwS5emGY-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ezz6B4Ye8779zwS5emGY-29" target="Ezz6B4Ye8779zwS5emGY-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ezz6B4Ye8779zwS5emGY-29" value="小于" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;" vertex="1" parent="1">
@@ -109,38 +109,11 @@
         <mxCell id="Ezz6B4Ye8779zwS5emGY-31" value="条件值的记录存在？" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="405" y="480" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ezz6B4Ye8779zwS5emGY-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ezz6B4Ye8779zwS5emGY-32" target="Ezz6B4Ye8779zwS5emGY-40">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="713" y="569" />
-              <mxPoint x="713" y="569" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ezz6B4Ye8779zwS5emGY-42" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ezz6B4Ye8779zwS5emGY-41">
-          <mxGeometry x="-0.3111" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ezz6B4Ye8779zwS5emGY-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ezz6B4Ye8779zwS5emGY-32" target="Ezz6B4Ye8779zwS5emGY-43">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ezz6B4Ye8779zwS5emGY-45" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ezz6B4Ye8779zwS5emGY-44">
-          <mxGeometry x="-0.3818" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ezz6B4Ye8779zwS5emGY-32" value="条件值的记录存在？" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="638" y="450" width="150" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="Ezz6B4Ye8779zwS5emGY-35" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;扫描到终止范围查询的记录时，&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;max-width: 100%; font-family: Arial; text-align: left; color: rgb(255, 85, 255); --darkreader-inline-color: #e694bf;&quot;&gt;该记录的&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(255, 255, 255); font-family: Arial; text-align: left; --darkreader-inline-color: #ffffdc;&quot;&gt;索引的 next-key 锁会&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;max-width: 100%; font-family: Arial; text-align: left; color: rgb(255, 85, 255); --darkreader-inline-color: #e694bf;&quot;&gt;退化成间隙锁&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ezz6B4Ye8779zwS5emGY-40" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;扫描到终止范围查询的记录时，该记录的索引的 next-key 锁会&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;max-width: 100%; font-family: Arial; text-align: left; color: rgb(255, 85, 255); --darkreader-inline-color: #e694bf;&quot;&gt;退化成间隙锁&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="653" y="620" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Ezz6B4Ye8779zwS5emGY-43" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;扫描到终止范围查询的记录时，&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;max-width: 100%; font-family: Arial; text-align: left; color: rgb(255, 85, 255); --darkreader-inline-color: #e694bf;&quot;&gt;该记录的&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(255, 255, 255); font-family: Arial; text-align: left; --darkreader-inline-color: #ffffdc;&quot;&gt;索引的 next-key 锁会&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;max-width: 100%; font-family: Arial; text-align: left; color: rgb(255, 85, 255); --darkreader-inline-color: #e694bf;&quot;&gt;退化成间隙锁&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="871" y="622" width="120" height="60" as="geometry" />
+          <mxGeometry x="653" y="490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
