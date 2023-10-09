@@ -1,9 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T03:13:49.437Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.4" etag="wV7M0mPwMg3x-GZF3OpK" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T03:34:47.225Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="gPLZIEyGfen77117mL3I" version="22.0.4" type="github">
   <diagram name="第 1 页" id="tPJ_YQ1r7z-Xj5ypfqRO">
-    <mxGraphModel>
+    <mxGraphModel dx="2261" dy="822" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ezz6B4Ye8779zwS5emGY-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ezz6B4Ye8779zwS5emGY-1" target="Ezz6B4Ye8779zwS5emGY-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="180" />
+              <mxPoint x="110" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ezz6B4Ye8779zwS5emGY-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ezz6B4Ye8779zwS5emGY-1" target="Ezz6B4Ye8779zwS5emGY-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="180" />
+              <mxPoint x="650" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ezz6B4Ye8779zwS5emGY-1" value="唯一索引" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezz6B4Ye8779zwS5emGY-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ezz6B4Ye8779zwS5emGY-2" target="Ezz6B4Ye8779zwS5emGY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezz6B4Ye8779zwS5emGY-2" value="等值查询" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezz6B4Ye8779zwS5emGY-4" value="范围查询" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="590" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezz6B4Ye8779zwS5emGY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ezz6B4Ye8779zwS5emGY-8" target="Ezz6B4Ye8779zwS5emGY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezz6B4Ye8779zwS5emGY-12" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ezz6B4Ye8779zwS5emGY-11">
+          <mxGeometry x="-0.2444" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ezz6B4Ye8779zwS5emGY-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ezz6B4Ye8779zwS5emGY-8" target="Ezz6B4Ye8779zwS5emGY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezz6B4Ye8779zwS5emGY-19" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ezz6B4Ye8779zwS5emGY-18">
+          <mxGeometry x="-0.1644" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ezz6B4Ye8779zwS5emGY-8" value="记录存在？" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezz6B4Ye8779zwS5emGY-10" value="&lt;font style=&quot;--darkreader-inline-color: #d2937a;&quot; data-darkreader-inline-color=&quot;&quot; color=&quot;#ea6b66&quot;&gt;该记录的&lt;/font&gt;，退化为&lt;font style=&quot;--darkreader-inline-color: #d2937a;&quot; data-darkreader-inline-color=&quot;&quot; color=&quot;#ea6b66&quot;&gt;记录锁&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="544" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezz6B4Ye8779zwS5emGY-17" value="&lt;font data-darkreader-inline-border=&quot;&quot; style=&quot;border-color: var(--darkreader-border--border-color); --darkreader-inline-border: var(--darkreader-border--darkreader-border--border-color);&quot;&gt;临界值&lt;/font&gt;（大于该查询条件的第一条）的，退化为&lt;b data-darkreader-inline-border=&quot;&quot; style=&quot;border-color: var(--darkreader-border--border-color); --darkreader-inline-border: var(--darkreader-border--darkreader-border--border-color);&quot;&gt;&lt;font data-darkreader-inline-border=&quot;&quot; style=&quot;border-color: var(--darkreader-border--border-color); --darkreader-inline-border: var(--darkreader-border--darkreader-border--border-color);&quot;&gt;间隙锁&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-196" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
